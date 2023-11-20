@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~angular2-toaster/toaster.css";
+@import "~rotating-text/dist/rotating-text.css";
+@import "~rotaiting-card/dist/rotaiting-card.css";
