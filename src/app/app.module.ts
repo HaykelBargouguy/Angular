@@ -9,6 +9,8 @@ import { CardComponent } from './card/card.component';
 import { FormComponent } from './form/form.component';
 import { CardFormComponent } from './card-form/card-form.component';
 import { VisitCardComponent } from './visit-card/visit-card.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { VisitCardComponent } from './visit-card/visit-card.component';
     CardComponent,
     FormComponent,
     CardFormComponent,
-    VisitCardComponent
+    VisitCardComponent,
+    ChildComponent,
+    ParentComponent
     ],
   imports: [
     FormsModule,

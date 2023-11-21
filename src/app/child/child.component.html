@@ -1,0 +1,9 @@
+<div [style.background-color]="childColor">
+          <h3>Child Component</h3>
+          <p>Background color from parent: {{ childColor }}</p>
+
+          <label>My Favorite Color: </label>
+          <input [(ngModel)]="myFavoriteColor" placeholder="Enter your favorite color" />
+          <button (click)="setParentBackgroundColor()">Set Parent Background Color</button>
+
+</div>
